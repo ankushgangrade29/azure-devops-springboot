@@ -6,9 +6,7 @@
 trigger:
 - main
 
-pool:
-  azurecicd
-  vmImage: windows-latest
+pool: azurecicd
 
 steps:
 - task: Maven@2

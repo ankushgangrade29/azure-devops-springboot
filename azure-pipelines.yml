@@ -9,7 +9,7 @@ trigger:
 pool: azurecicd
 
 steps:
-- task: Maven@2
+- task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'

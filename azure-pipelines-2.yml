@@ -7,7 +7,6 @@ stages:
   jobs:
   - job: Job
     pool:
-      name:azurecicd
       vmImage: windows-latest
     steps:
     - task: Maven@2
